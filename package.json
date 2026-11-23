@@ -1,0 +1,47 @@
+{
+  "name": "vibeagent",
+  "version": "0.1.0",
+  "description": "A keyless, zero-dependency terminal coding agent. Chat with an AI that reads, edits and runs your code.",
+  "type": "module",
+  "bin": {
+    "vibe": "./src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "start": "node src/cli.ts",
+    "dev": "node --watch src/cli.ts",
+    "test": "node --test \"test/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "coding-agent",
+    "cli",
+    "llm",
+    "terminal",
+    "vibe-coding",
+    "kilo"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder6573-eng/vibeagent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coder6573-eng/vibeagent/issues"
+  },
+  "homepage": "https://github.com/coder6573-eng/vibeagent#readme",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.9.3"
+  }
+}
