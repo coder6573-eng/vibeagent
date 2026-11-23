@@ -1,0 +1,3 @@
+# vibeagent
+
+Initializing repository.
